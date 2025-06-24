@@ -62,6 +62,3 @@ class ProductDeleteView(DeleteView):
     template_name = 'shop_app/delete_product'
     form_class = ProductModelForm
     success_url = reverse_lazy('products')
-from django.shortcuts import render
-
-# Create your views here.
